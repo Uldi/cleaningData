@@ -1,7 +1,7 @@
 # cleaningData
 Course project for Module getting and cleaning data
 
-##run_analysis.R
+## run_analysis.R
 This script consists of 3 functions
 * getCleanDataSet() - returns the cleaned data set (merge of train and test datasets, reduced to std and mean columns, added activity and subject columsn
 * getDataSetWithAverageData(dataSet) - returns a data set with the average data of each variable for each activity and each subject
@@ -9,7 +9,7 @@ This script consists of 3 functions
 the dataset with the averages per variable, activity and subjects and writes
 to a text file called "averageDataSet.txt"
 
-##code book
+## code book
 The resulting data set contains the following variables
 * acticity - the activity the subject has done: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 * subject - values 1 - 30, 30 test person
